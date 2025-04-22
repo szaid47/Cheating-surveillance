@@ -111,7 +111,7 @@ def zip_screenshots(screenshots):
     return zip_path
 
 def main():
-    st.set_page_config(page_title="Cheating Surveillance", page_icon="🕵️", layout="centered")
+    st.set_page_config(page_title="Cheating Surveillance", page_icon="", layout="centered")
     set_dark_theme()
 
     with st.sidebar:
@@ -122,7 +122,7 @@ def main():
         Please **cross-check** the screenshots to ensure accuracy, as false positives can happen due to lighting conditions, angle, or partial visibility of the face.
         """)
 
-    st.title("🕵️‍♂️ Cheating Surveillance System")
+    st.title("Cheating Surveillance System")
     st.subheader("🔍 Detect Head/Gaze Misalignment (~1 sec)")
 
     uploaded_video = st.file_uploader("📂 Upload Video File", type=["mp4", "avi"])
