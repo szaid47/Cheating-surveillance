@@ -9,6 +9,14 @@ The **Cheating Surveillance System** is designed to detect cheating during Onlin
 - **Real-Time Monitoring**: Processes live video feeds for instant analysis and detection.
 - **Alert System**: Detects and flags potential cheating behavior, such as excessive head or pupil movement in the left, right, up, or down direction for longer than the allowed time.
 
+- ![Phone Detection Example](photos/phone-detected.png)
+![looking right](photos/look-right.png)
+
+![looking left](photos/look-left.png)
+![looking up](photos/look-up.png)
+![looking down](photos/look-down.png)
+
+
 ## Technologies Used
 - **Python**
 - **OpenCV** (for video processing)
